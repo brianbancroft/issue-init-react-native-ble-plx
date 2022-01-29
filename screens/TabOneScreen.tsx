@@ -3,7 +3,6 @@ import { StyleSheet } from "react-native";
 import EditScreenInfo from "../components/EditScreenInfo";
 import { Text, View } from "../components/Themed";
 import { RootTabScreenProps } from "../types";
-import BluetoothTest from "../components/BluetoothTest";
 
 export default function TabOneScreen({
   navigation,
@@ -18,8 +17,6 @@ export default function TabOneScreen({
         darkColor="rgba(255,255,255,0.1)"
       />
       {/* <EditScreenInfo path="/screens/TabOneScreen.tsx" /> */}
-
-      <BluetoothTest />
     </View>
   );
 }
